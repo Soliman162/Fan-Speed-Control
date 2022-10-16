@@ -1,0 +1,6 @@
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/ATmega32_COTS.elf.dir
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/build.dir
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/flash.dir
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/remove.dir
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/edit_cache.dir
+/home/soliman/AVR/ATmega32/AVR_COTS/build/CMakeFiles/rebuild_cache.dir

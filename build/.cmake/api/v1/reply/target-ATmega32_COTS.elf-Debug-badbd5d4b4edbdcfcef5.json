@@ -1,0 +1,321 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ATmega32_COTS.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mmcu=atmega32 -O1 -DF_CPU=8000000UL  -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/01-DIO"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/02-UART"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/03-ADC"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/04-Timer1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/05-Timer0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/06-WDT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/07-EXINT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../MCAL/08-I2C"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/L298"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/HC_05"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/LED"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/LDR"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/LM35"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/CLCD"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/7_Segment"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/Switch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../HAL/DC_motor"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../LIB"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/Test/../SERVICES"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"id" : "ATmega32_COTS.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mmcu=atmega32 -O1 -DF_CPU=8000000UL  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "ATmega32_COTS.elf",
+	"nameOnDisk" : "ATmega32_COTS.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/HC_05/HC05_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/L298/L298_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/LED/LED_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/LM35/LM35_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/LDR/LDR_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/CLCD/CLCD_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/7_Segment/7_Segment_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/Switch/Switch_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/HAL/DC_motor/DC_motor_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/01-DIO/DIO_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/02-UART/UART_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/03-ADC/ADC_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/04-Timer1/TIMER1_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/05-Timer0/TIMER0_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/06-WDT/WDT_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/07-EXINT/EXINT_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/MCAL/08-I2C/I2C_program.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/soliman/AVR/ATmega32/AVR_COTS/SERVICES/SERVICES.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
